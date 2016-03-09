@@ -1,5 +1,3 @@
-require 'database_cleaner'
-
 class CleanController < ApplicationController
 
   def clean
@@ -7,6 +5,7 @@ class CleanController < ApplicationController
 
     # then, whenever you need to clean the DB
     DatabaseCleaner.clean
+    render json: []
   end
 
 end
