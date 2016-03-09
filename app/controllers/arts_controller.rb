@@ -13,7 +13,7 @@ class ArtsController < ApplicationController
 
   def update
     @art = Art.find(params[:id])
-      if @art.update(recipe_params)
+      if @art.update(art_params)
         redirect_to @art
       else
         render 'edit'
@@ -27,7 +27,7 @@ class ArtsController < ApplicationController
   end
 
   private
-    def recipe_params
+    def art_params
       params.require(:art).permit(:caption, :image, :collection)
     end
 
