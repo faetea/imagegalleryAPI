@@ -14,16 +14,18 @@ class ArtsController < ApplicationController
   def update
     @art = Art.find(params[:id])
       if @art.update(art_params)
-        redirect_to @art
+        # redirect_to @art
+        render json: @art
       else
-        render 'edit'
+        # render 'edit'
       end
   end
 
   def destroy
     @art = Art.find(params[:id])
     @art.destroy
-    redirect_to root_url
+    # redirect_to root_url
+    render json: @art, "was deleted"
   end
 
   private
