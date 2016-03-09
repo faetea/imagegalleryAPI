@@ -47,3 +47,5 @@ end
 
 # Cross-Origin Resource Sharing
 gem 'rack-cors', require: 'rack/cors'
+
+gem 'database_cleaner', '~> 1.5', '>= 1.5.1'

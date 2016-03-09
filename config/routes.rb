@@ -24,4 +24,8 @@ Rails.application.routes.draw do
   post 'login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
 
+
+  get 'cleaner' => 'clean#clean'
+  # DatabaseCleaner is a set of strategies for cleaning database in Ruby during tests
+
 end
