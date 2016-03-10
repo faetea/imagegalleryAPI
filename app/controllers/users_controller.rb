@@ -2,7 +2,6 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-    # render json: @user
   end
 
   def create
@@ -11,9 +10,11 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       # redirect_to '/'
+      puts "Signup: Created new User and saved"
       render json: @user, only: [:first_name, :email]
     else
       # redirect_to '/signup'
+      puts "Signup: Unable to saved new User"
       render json: @user.errors
     end
   end

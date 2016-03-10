@@ -25,7 +25,7 @@ class ArtsController < ApplicationController
     @art = Art.find(params[:id])
     @art.destroy
     # redirect_to root_url
-    render json: @art, "was deleted"
+    render json: @art
   end
 
   private
