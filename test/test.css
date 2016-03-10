@@ -1,0 +1,64 @@
+#one {
+  background: #f5f0f0;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+#two {
+  background: #d7c2c2;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+#three {
+  background: #b89494;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;}
+#four {
+  background: #996666;  /*Copper rose*/
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+
+#five {
+  background: #f0f0f5;  /*Light grayish blue*/
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+#six {
+  background: #c2c2d7;  /*Grayish blue*/
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+#seven {
+  background: #9494b8;  /*Grayish blue*/
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}
+#eight {
+  background: #666699;  /*Mostly desaturated dark blue*/
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  margin: 24px;
+  float: right;
+}

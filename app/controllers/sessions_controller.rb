@@ -1,5 +1,6 @@
 class SessionsController < ApplicationController
 
+  # because logging in is done throught post 'login' => 'sessions#create', the def new route just lets me know what fields I need to fill to login in
   def new
     render json: @user
   end
