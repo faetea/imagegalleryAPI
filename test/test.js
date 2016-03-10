@@ -43,42 +43,30 @@ $(document).ready(function(){
 
   cleaner(
     function (data, textStatus, jqXHR) {
-      testResults.append( textStatus + " cleaner<br>");
-      testResults.append( JSON.stringify(jqXHR) + "<br>");
-      testResults.append( JSON.stringify(data) + "<br><br>");
+      testResults.append( "<h3>" + textStatus + " cleaner</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(data) + "</p>");
 
       register(
         function (data, textStatus, jqXHR) {
-          testResults.append( textStatus + " register<br>");
-          testResults.append( JSON.stringify(jqXHR) + "<br>");
-          testResults.append( JSON.stringify(data) + "<br><br>");
+          testResults.append( "<h3>" + textStatus + " register</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(data) + "</p>");
 
           login(
             function (data, textStatus, jqXHR) {
-              testResults.append( textStatus + " login<br>");
-              testResults.append( JSON.stringify(jqXHR) + "<br>");
-              testResults.append( JSON.stringify(data) + "<br><br>");
+              testResults.append( "<h3>" + textStatus + " login</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(data) + "</p>");
             },
             function (jqXHR, textStatus, errorThrown) {
-              testResults.append( textStatus + " login<br>" );
-              testResults.append( JSON.stringify(jqXHR) + "<br>");
-              testResults.append( JSON.stringify(errorThrown) + "<br><br>" );
+              testResults.append( "<h3>" + textStatus + " login</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(errorThrown) + "</p>" );
           });
         },// end register success
 
         // begin register error
         function (jqXHR, textStatus, errorThrown) {
-          testResults.append( textStatus + " register<br>" );
-          testResults.append( JSON.stringify(jqXHR) + "<br>");
-          testResults.append( JSON.stringify(errorThrown) + "<br><br>" );
+          testResults.append( "<h3>" + textStatus + " register</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(errorThrown) + "</p>" );
       });
     }, // end cleaner success
 
     // begin cleaner error
     function (jqXHR, textStatus, errorThrown) {
-      testResults.append( textStatus + " cleaner<br>" );
-      testResults.append( JSON.stringify(jqXHR) + "<br>");
-      testResults.append( JSON.stringify(errorThrown) + "<br><br>" );
+      testResults.append( "<h3>" + textStatus + " cleaner</h3> <p>" + JSON.stringify(jqXHR) + "<br><br>" + JSON.stringify(errorThrown) + "</p>" );
   });
 
 });

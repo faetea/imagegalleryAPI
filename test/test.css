@@ -1,64 +1,48 @@
-#one {
-  background: #f5f0f0;
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
-}
-#two {
-  background: #d7c2c2;
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
-}
-#three {
-  background: #b89494;
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;}
-#four {
-  background: #996666;  /*Copper rose*/
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
+html, body {
+  margin: 20px;
 }
 
-#five {
-  background: #f0f0f5;  /*Light grayish blue*/
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
+h2 {
+  margin: 0px 10px 20px 10px;
 }
-#six {
-  background: #c2c2d7;  /*Grayish blue*/
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
+
+h3 {
+  margin: 0px 0px 15px 0px;
 }
-#seven {
-  background: #9494b8;  /*Grayish blue*/
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
+
+p {
+  margin: 0px 0px 30px 0px;
 }
-#eight {
-  background: #666699;  /*Mostly desaturated dark blue*/
-  width: 200px;
-  height: 200px;
-  padding: 12px;
-  margin: 24px;
-  float: right;
+
+#testResults {
+  width: 100%;
+  height: 400px;
+  padding: 0px;
+  margin: 0px 10px 20px 10px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+
+.twentybg {
+  background: #333333;  /*20%, Very dark gray, Very dark gray.*/
+  color: #ffffff
+}
+.fourtybg {
+  background: #666666;  /*40%, Very dark gray, a websafe color.*/
+  color: #ffffff
+}
+.sixtybg {
+  background: #999999;  /*60%, Dark gray, a websafe color.*/
+  color: #ffffff
+}
+.eightybg {
+  background: #cccccc;  /*80%, Light gray, a websafe color.*/
+  color: #ffffff
 }

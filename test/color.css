@@ -1,0 +1,163 @@
+.alice {
+  background: #f0f8ff; /*Very pale (mostly white) blue, (Alice blue), colorblind? appears violet-ish*/
+}
+
+#efdecd; /*Light grayish orange, (Almond)*/
+
+#faebd7; /*Light grayish orange, (Antique white, Moccasin)*/
+
+#b2beb5; /*Grayish cyan - lime green, (Ash grey), colorblind? red-ish*/
+
+#f0ffff; /*Very pale (mostly white) cyan, (Azure mist/web)*/
+
+#bcd4e6; /*Light grayish blue, (Beau blue, Pale aqua)*/
+
+#848482; /*Dark grayish yellow, (Battleship grey), colorblind? red-ish*/
+
+#98777b; /*Dark grayish red, (Bazaar)*/
+
+#e7feff; /*Very pale (mostly white) cyan, (Bubbles)*/
+
+#91a3b0; /*Dark grayish blue, (Cadet grey)*/
+
+#99badd; /*Very soft blue, (Carolina blue)*/
+
+#98817b; /*Dark grayish red, (Cinereous)*/
+
+#cd5c5c; /*Moderate red, (Chestnut, Indian red), colorblind? orange-ish*/
+
+#8c92ac; /*Dark grayish blue, (Cool grey)*/
+
+.copper {
+  background: #996666; /*Mostly desaturated dark red, (Copper rose), a websafe color.*/
+}
+
+#fff8e7; /*Very pale (mostly white) orange, (Cosmic latte)*/
+
+#5d3954; /*Very dark desaturated magenta, (Dark byzantium)*/
+
+#986960; /*Mostly desaturated dark red, (Dark chestnut), colorblind? orange-ish*/
+
+#483c32; /*Very dark grayish orange, (Dark lava, Dark taupe, Taupe)*/
+
+#704241; /*Very dark desaturated red, (Deep coffee)*/
+
+#edc9af; /*Very soft orange, (Desert sand)*/
+
+#614051; /*Very dark grayish pink, (Eggplant)*/
+
+#801818; /*Dark red, (Falu red), colorblind? orange-ish*/
+
+#a67b5b; /*Dark moderate orange, (French beige, Café au lait)*/
+
+.wuzzy {
+  background: #cc6666; /*Moderate red, (Fuzzy Wuzzy), a websafe color.*/
+}
+
+#e6e8fa; /*Light grayish blue, (Glitter), colorblind? violet-ish*/
+
+#a99a86; /*Dark grayish orange, (Grullo)*/
+
+#f4f0ec; /*Light grayish orange, (Isabelline), colorblind? red-ish*/
+
+#d6cadd; /*Light grayish violet, (Languid lavender)*/
+
+#c4c3d0; /*Grayish blue, (Lavender gray)*/
+
+#e6e6fa; /*Light grayish blue, (Lavender, Lavender mist)*/
+
+#add8e6; /*Very soft cyan, (Light blue)*/
+
+#778899; /*Dark grayish blue, (Light slate gray)*/
+
+#20b2aa; /*Dark cyan, (Light sea green)*/
+
+#c8a2c8; /*Grayish magenta, (Lilac)*/
+
+#f8f4ff; Very pale (mostly white) violet, (Magnolia)
+
+#979aaa; Dark grayish blue, (Manatee)
+
+#915f6d; Mostly desaturated dark pink, (Raspberry glace, Mauve taupe)
+
+#997a8d; Dark grayish pink, (Mountbatten pink)
+
+.munsell {
+  background: #f2f3f4; /*Light grayish blue, (Munsell), colorblind? pink-ish*/
+}
+
+#796878; Dark grayish magenta, (Old lavender)
+
+#c9c0bb; Grayish orange, (Pale silver)
+
+#aec6cf; Grayish blue, (Pastel blue)
+
+#cfcfc4; Grayish yellow, (Pastel gray)
+
+#eae0c8; Light grayish orange, (Pearl)
+
+#e5e4e2; Light grayish orange, (Platinum)
+
+#674846; Very dark grayish red, (Rose ebony)
+
+#aa98a9; Dark grayish magenta, (Rose quartz)
+
+#bc8f8f; Grayish red, (Rosy brown)
+
+#dbd7d2; Light grayish orange, (Timberwolf)
+
+#b57281; Slightly desaturated red, (Turkish rose)
+
+#66023c; Very dark pink, (Tyrian purple)
+
+#f5deb3; Very soft orange, (Wheat)
+
+#738678; Dark grayish cyan - lime green, (Xanadu)
+
+
+
+
+#one {
+  background: #ffcccc;   /*Very pale red [Pink tone], a websafe color.*/
+  color: #ffffff
+}
+#onecomp {
+  background: #cce6ff;  /*Very pale blue.*/
+  color: #ffffff
+}
+#two {
+  background: #cc9999;  /*Slightly desaturated red, a websafe color.*/
+  color: #ffffff
+}
+#twocomp {
+  background: #99b3cc;  /*Slightly desaturated blue.*/
+  color: #ffffff
+}
+#three {
+  background: #cc99cc;  /*Slightly desaturated magenta, a websafe color.*/
+  color: #ffffff
+}
+#threecomp {
+  background: #b3cc99;  /*Slightly desaturated green.*/
+  color: #ffffff
+}
+#four {
+  background: #ccccff;   /*Very pale blue, Lavender blue, Periwinkle, a websafe color.*/
+  color: #ffffff
+}
+#fourcomp {
+  background: #ffe6cc;  /*Very pale orange.*/
+  color: #ffffff
+}
+#five {
+  background: #9999cc;  /*Slightly desaturated blue, a websafe color.*/
+  color: #ffffff
+}
+#six {
+  background: #99cccc;  /*Slightly desaturated cyan, a websafe color.*/
+  color: #ffffff
+}
+#sixcomp {
+  background: #cc99b3;  /*Slightly desaturated pink.*/
+  color: #ffffff
+}
